@@ -95,15 +95,16 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     margin-top: 30px
 }
 
-.video-content {
+.video-content, .dev-target-content{
   text-align: center;
 }
-
+/* .dev-target-content .title, */
 .video-content .title{
     display: block;
     margin: 30px auto 0 auto;
-    padding-top: 14px
+    padding-top: 17px
 }
+/* .dev-target-content .subtitle, */
 .video-content .subtitle {
   display: block;
   margin: 0 20px;
@@ -115,4 +116,63 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 
 .video-content iframe {
   border-radius: 15px;
+}
+
+
+
+.dev-target-content .title{
+    display: block;
+}
+.dev-target-content .subtitle {
+  display: block;
+ margin:0 22px;
+  padding: 8px;
+}
+.dev-target-content .title{
+    padding: 17px 0 0 0;
+   
+}
+.dev-target-tools{
+    display: flex;
+   flex-direction: row;
+}
+
+.html{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+margin-right: 30px;
+}
+.html-des{
+width: 240px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin:10px 0px 0 10px;
+}
+.css{
+ border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+margin-right: 30px;
+}
+.css-des{
+    width: 240px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 0 10px;
+}
+.javascript{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+
+}
+.javascript-des{
+    width: 240px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 0 10px;
 }
