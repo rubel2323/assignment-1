@@ -188,3 +188,39 @@ margin-right: 20px;
 .css-des .learn-more, .javascript-des .learn-more{
     margin-bottom:60px;
 }
+/* next target title and subtitle */
+.next-targets-content {
+  text-align: center;
+  margin: 50px 0;
+   
+}
+
+.reactjs-des, .nodejs-des, .mongodb-des{
+    display: flex;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+margin:0 150px 0 150px;  
+}
+
+.reactjs-image, .nodejs-image,mongodb-image{
+margin: 30px 20px 10px 20px;
+}
+.nodejs, .mongodb{
+    margin:20px 0 0 5px;
+}
+
+.about-reactjs .title{
+    padding: 5px;
+   
+}
+.about-reactjs .learn-more,.about-nodejs .learn-more,.about-mongodb .learn-more{
+    margin:10px 0 10px 0;
+}
+.about-mongodb{
+    margin-left: 20px;
+}
+
+
