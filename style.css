@@ -129,50 +129,62 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
   padding: 8px;
 }
 .dev-target-content .title{
-    padding: 17px 0 0 0;
+    padding: 12px 0 0 0;
    
 }
 .dev-target-tools{
     display: flex;
    flex-direction: row;
+   margin-top: 20px;
 }
 
 .html{
     border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
-margin-right: 30px;
+margin-right: 20px;
 }
 .html-des{
-width: 240px;
+width: 332px;
 height: 219px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin:10px 0px 0 10px;
+margin:0px 0px 0 10px;
 }
 .css{
  border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
-margin-right: 30px;
+margin-right: 20px;
 }
-.css-des{
-    width: 240px;
+.css-des, .javascript-des{
+    width: 332px;
     height: 219px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px 0px 0 10px;
+    margin: 28px 0px 0 12px;
 }
+
 .javascript{
     border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
-
+margin-right: 20px;
 }
-.javascript-des{
-    width: 240px;
-    height: 219px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px 0px 0 10px;
+
+
+.learn-more {
+  display: inline-block;
+ 
+  text-decoration: underline;
+  color: black; /* Set the color to black */
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.learn-more:hover {
+  color: #31e8d9; /* Adjust the hover color as needed */
+}
+.css-des .learn-more, .javascript-des .learn-more{
+    margin-bottom:60px;
 }
