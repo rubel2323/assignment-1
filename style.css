@@ -73,19 +73,16 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 }
-.dev-reason-two{
-    /* Frame 8 */
 
+.dev-reason-two{
 width: 750px;
 height: 150px;
-/* Auto layout */
 padding: 15px;
 margin-left: 35px;
 border-radius: 15px;
 font-family: Azeret Mono;
 font-size: 15px;
 display: flex;
-
 line-height: 20px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
@@ -118,8 +115,6 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
   border-radius: 15px;
 }
 
-
-
 .dev-target-content .title{
     display: block;
 }
@@ -143,6 +138,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 background: rgba(255, 76, 30, 0.05);
 margin-right: 20px;
 }
+
 .html-des{
 width: 332px;
 height: 219px;
@@ -151,6 +147,7 @@ flex-direction: column;
 justify-content: center;
 margin:0px 0px 0 10px;
 }
+
 .css{
  border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
@@ -171,7 +168,6 @@ background: rgba(255, 223, 0, 0.05);
 margin-right: 20px;
 }
 
-
 .learn-more {
   display: inline-block;
  
@@ -188,7 +184,7 @@ margin-right: 20px;
 .css-des .learn-more, .javascript-des .learn-more{
     margin-bottom:60px;
 }
-/* next target title and subtitle */
+/* next targets title and subtitle */
 .next-targets-content {
   text-align: center;
   margin: 50px 0;
@@ -221,6 +217,53 @@ margin: 30px 20px 10px 20px;
 }
 .about-mongodb{
     margin-left: 20px;
+}
+
+.contact-content {
+  background-image: url('resources/handshake.jpg'); 
+  background-position: center;
+  padding: 50px;
+  color: white; /* Adjust text color for better readability */
+  margin: 50px 150px 80px 150px;
+  border-radius: 12px;
+}
+
+.contact-content .title,
+.contact-content .subtitle {
+  text-align: center;
+}
+
+.contact-fields {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.form-group textarea {
+   width: 400px;
+  padding: 15px 0 0 15px;
+  border-radius: 8px;
+  resize: none;
+}
+/* Style for the textarea placeholder */
+textarea::placeholder {
+    font-style: italic;
+    font-family: Azeret Mono;
+    font-size: 14px;
+  }
+
+button[type="submit"] {
+  background-color: #f4f6f9;
+  width:100px;
+  color: black;
+  border: none;
+  border-radius:8px;
+  coursor: pointer;
+  font-family: Azeret Mono;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 
