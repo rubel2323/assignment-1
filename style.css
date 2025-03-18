@@ -1,114 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap');
 
-body,html 
-{
+body, html {
   margin: 0;
   padding: 0;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-#hero .hero-icon{
-height: 240px;
-width: 240px;
-    background-image: url(resources/Group.png);
+
+#hero .hero-icon {
+  height: 240px;
+  width: 240px;
+  background-image: url(resources/Group.png);
   background-position: center;
-    background-size: cover;
-   margin-left: 600px;
-} 
-
-
-.hero-background{
-    height: 575px;
-    background-image: url(resources/Hero-bg.png);
- 
+  background-size: cover;
+  margin-left: 600px;
 }
 
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 24;
-    padding: 0px;
+.hero-background {
+  height: 575px;
+  background-image: url(resources/Hero-bg.png);
 }
 
-.title{
-    font-family: "Azeret Mono", monospace;
-    
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 0;
 }
 
-.title-description{
-    margin:10px 300px;
-}
-.btn-primary{
-    padding: 16px 20px 16px 20px;;
-    border: none;
-    border-radius: 9px;
-    color: rgb(255, 255, 255);
-    background: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: center;
-    cursor: pointer;
-}
-.btn-primary a{
-    text-decoration: none;
-    color: white;
-}
-#development .intro ,#video{
-    margin:50px 160px 0px 160px;
-    border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-}
-.dev-reason{
-    text-align: center;
-    margin: 40px;
-}
-.dev-reason .title{
-   padding: 8px;
-   font-size: 27px;
-   
-}
-.title-des{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+.title {
+  font-family: "Azeret Mono", monospace;
 }
 
-.dev-reason-two{
-width: 750px;
-height: 150px;
-padding: 15px;
-margin-left: 35px;
-border-radius: 15px;
-font-family: Azeret Mono;
-font-size: 15px;
-display: flex;
-line-height: 20px;
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-}
-.image{}
-
-.num-2, .num-3{
-    margin-top: 30px
+.title-description {
+  margin: 10px 300px;
 }
 
-.video-content, .dev-target-content{
+.btn-primary {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  background: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+
+#development .intro, #video {
+  margin: 50px 160px 0;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.dev-reason {
+  text-align: center;
+  margin: 40px;
+}
+
+.dev-reason .title {
+  padding: 8px;
+  font-size: 27px;
+}
+
+.title-des {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
   text-align: center;
 }
 
-.video-content .title{
-    display: block;
-    margin: 30px auto 0 auto;
-    padding-top: 17px
+.dev-reason-two {
+  width: 750px;
+  height: 150px;
+  padding: 15px;
+  margin-left: 35px;
+  border-radius: 15px;
+  font-family: Azeret Mono;
+  font-size: 15px;
+  display: flex;
+  line-height: 20px;
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.image {}
+
+.num-2, .num-3 {
+  margin-top: 30px;
+}
+
+.video-content, .dev-target-content {
+  text-align: center;
+}
+
+.video-content .title {
+  display: block;
+  margin: 30px auto 0;
+  padding-top: 17px;
 }
 
 .video-content .subtitle {
@@ -116,70 +120,73 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
   margin: 0 20px;
   padding: 10px;
 }
-.video-content video{
-    margin-top: 20px;
+
+.video-content video {
+  margin-top: 20px;
 }
 
 .video-content iframe {
   border-radius: 15px;
 }
 
-.dev-target-content .title{
-    display: block;
+.dev-target-content .title {
+  display: block;
 }
+
 .dev-target-content .subtitle {
   display: block;
- margin:0 22px;
+  margin: 0 22px;
   padding: 8px;
 }
-.dev-target-content .title{
-    padding: 12px 0 0 0;
-   
-}
-.dev-target-tools{
-    display: flex;
-   flex-direction: row;
-   margin-top: 20px;
+
+.dev-target-content .title {
+  padding: 12px 0 0;
 }
 
-.html{
-    border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
-margin-right: 20px;
+.dev-target-tools {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 
-.html-des{
-width: 332px;
-height: 219px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin:0px 0px 0 10px;
+.html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  margin-right: 20px;
 }
 
-.css{
- border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
-margin-right: 20px;
-}
-.css-des, .javascript-des{
-    width: 332px;
-    height: 219px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 28px 0px 0 12px;
+.html-des {
+  width: 332px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 10px;
 }
 
-.javascript{
-    border-radius: 16px;
-background: rgba(255, 223, 0, 0.05);
-margin-right: 20px;
+.css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  margin-right: 20px;
+}
+
+.css-des, .javascript-des {
+  width: 332px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 28px 0 0 12px;
+}
+
+.javascript {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  margin-right: 20px;
 }
 
 .learn-more {
   display: inline-block;
- 
   text-decoration: underline;
   color: black;
   font-family: Azeret Mono;
@@ -188,58 +195,57 @@ margin-right: 20px;
 }
 
 .learn-more:hover {
-  color: #31e8d9; /* Adjust the hover color as needed */
+  color: #31e8d9;
 }
-.css-des .learn-more, .javascript-des .learn-more{
-    margin-bottom:60px;
+
+.css-des .learn-more, .javascript-des .learn-more {
+  margin-bottom: 60px;
 }
-/* next targets title and subtitle */
+
 .next-targets-content {
   text-align: center;
   margin: 50px 0;
-   
 }
 
-.reactjs-des, .nodejs-des, .mongodb-des{
-    display: flex;
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-
-background: rgb(255, 255, 255);
-margin:0 150px 0 150px;  
+.reactjs-des, .nodejs-des, .mongodb-des {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin: 0 150px;
 }
 
-.reactjs-image, .nodejs-image,mongodb-image{
-margin: 30px 20px 10px 20px;
-}
-.nodejs, .mongodb{
-    margin:20px 0 0 5px;
+.reactjs-image, .nodejs-image, .mongodb-image {
+  margin: 30px 20px 10px;
 }
 
-.about-reactjs .title{
-    padding: 5px;
-   
+.nodejs, .mongodb {
+  margin: 20px 0 0 5px;
 }
-/* learn more button style */
-.about-reactjs .learn-more,.about-nodejs .learn-more,.about-mongodb .learn-more{
-    margin:10px 0 10px 0;
+
+.about-reactjs .title {
+  padding: 5px;
 }
-.about-mongodb{
-    margin-left: 20px;
+
+.about-reactjs .learn-more, .about-nodejs .learn-more, .about-mongodb .learn-more {
+  margin: 10px 0;
+}
+
+.about-mongodb {
+  margin-left: 20px;
 }
 
 .contact-content {
-  background-image: url('resources/handshake.jpg'); 
+  background-image: url('resources/handshake.jpg');
   background-position: center;
   padding: 50px;
-  color: white; /* Adjust text color for better readability */
-  margin: 50px 150px 80px 150px;
+  color: white;
+  margin: 50px 150px 80px;
   border-radius: 12px;
 }
 
-.contact-content .title,
-.contact-content .subtitle {
+.contact-content .title, .contact-content .subtitle {
   text-align: center;
 }
 
@@ -250,59 +256,60 @@ margin: 30px 20px 10px 20px;
 }
 
 .form-group textarea {
-   width: 400px;
+  width: 400px;
   padding: 15px 0 0 15px;
   border-radius: 8px;
   resize: none;
 }
-/* Style for the textarea placeholder */
+
 textarea::placeholder {
-    font-style: italic;
-    font-family: Azeret Mono;
-    font-size: 14px;
-  }
+  font-style: italic;
+  font-family: Azeret Mono;
+  font-size: 14px;
+}
 
 button[type="submit"] {
   background-color: #f4f6f9;
-  width:100px;
+  width: 100px;
   color: black;
   border: none;
-  border-radius:8px;
-  coursor: pointer;
+  border-radius: 8px;
+  cursor: pointer;
   font-family: Azeret Mono;
 }
 
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
 .site-footer {
-  
-    border-radius: 10px;
-    background: rgba(34, 34, 35, 0.084);
+  border-radius: 10px;
+  background: rgba(34, 34, 35, 0.084);
 }
-.footer-content{
-    display: flex;
-     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 0; /* Reduce padding to thin the footer */
-    
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 0;
 }
-.footer-text{
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(13, 19, 33);
-    margin: 0 0 0 150px; /* Reduce margin to thin the footer */
-    }
 
-    .footer-social{
-        margin-right: 132px;
+.footer-text {
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  margin: 0 0 0 150px;
+}
 
-    }
+.footer-social {
+  margin-right: 132px;
+}
+
 .footer-social a {
-  margin:10px 10px;
+  margin: 10px;
 }
 
 
